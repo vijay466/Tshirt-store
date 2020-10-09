@@ -9,7 +9,7 @@
     "heroku-postbuild": "npm run install-projfrontend && npm run build",
     "projfrontend": "cd projfrontend && npm start",
     "dev": "concurrently \"npm run app\" \"npm run projfrontend\"",
-    "start": "nodemon app.js"
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
